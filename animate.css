@@ -1,0 +1,61 @@
+/* animate.css */
+
+
+.slidein {
+  position: absolute;
+  -moz-animation-duration: 5s;
+  -webkit-animation-duration: 5s;
+  animation-duration: 5s;
+  -moz-animation-name: slidein;
+  -webkit-animation-name: slidein;
+  animation-name: slidein;
+  -moz-animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -moz-animation-direction: alternate;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}
+    
+@-moz-keyframes slidein {
+  from {
+    top: 100px;
+    right: 100px;
+    font-size: 10px;
+  }
+      
+  to {
+
+    top: 20px;
+    right: 20px;
+    font-size: 20px;
+  }
+}
+
+@-webkit-keyframes slidein {
+  from {
+    top: 100px;
+    right: 100px;
+    font-size: 10px;
+  }
+  
+  to {
+    top: 20px;
+    right: 20px;
+    font-size: 20px;
+ }
+}
+
+@keyframes slidein {
+  from {
+    top: 100px;
+    right: 100px;
+    font-size: 10px;
+  }
+  
+  to {
+    top: 20px;
+    right: 20px;
+    font-size: 20px;
+ }
+}
